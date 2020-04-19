@@ -1,21 +1,68 @@
-head {
-    font-size: xx-Large
+/* genral defaults */
+
+html 
+{
+    scroll-behavior: smooth;
 }
 
-.layout1 {
-    width: 1500px;
+body {
+    background-color:black
+}
+/* font */
+h1 
+{
+    text-align: center;
+    border: 10px red groove;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 
+{
+    text-align: center;
+    border: 6px red groove;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 
+{
+    text-align: center;
+    border: 6px red groove;
+    border-left: 2px solid black;
+    border-top: black;
+    border-right: 2px solid black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* layout */
+
+.Layout01 {
+    max-width: 1405px;
     margin-left: auto;
     margin-right: auto;
 }
-body {
-    font-family: fantasy;
-    background-color:white
+
+.Layout02 {
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.Layout03 {
+    max-width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-img,
-video,
-audio,
-iframe {
-    max-width: 100%;
+.Layout04 {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
